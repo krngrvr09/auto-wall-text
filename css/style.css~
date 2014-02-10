@@ -1,0 +1,12 @@
+body
+{
+height: 100%;
+}
+#input
+{	position: absolute;
+	top: 25%;
+	width: 99%; 
+	height: 281px; 
+	font-family: "Times New Roman", Georgia, Serif;
+	background-color: transparent;
+}
