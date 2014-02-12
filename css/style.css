@@ -1,12 +1,41 @@
 body
 {
 height: 100%;
+background-color: #EED3FC;
 }
 #input
 {	position: absolute;
 	top: 25%;
-	width: 99%; 
+	left: 30px;
+	width: 95%; 
 	height: 281px; 
 	font-family: "Times New Roman", Georgia, Serif;
 	background-color: transparent;
+	border: none;
+	box-shadow: 0 0 15px rgba(0,0,0,.4);
+	font-size: 20pt;
+}
+h1
+{
+	color: rgba(128,128,128,1); /*#42433F;*/
+	position: absolute;
+	font-size: 100pt;
+animation:myfirst 1s;
+-webkit-animation:myfirst 1s; 
+}
+
+@keyframes myfirst
+{
+0%   {color:rgba(128,128,128,0.2);}
+25%  {color:rgba(128,128,128,0.4);}
+50%  {color:rgba(128,128,128,0.6);}
+100% {color:rgba(128,128,128,0.8);}
+}
+
+@-webkit-keyframes myfirst 
+{
+0%   {color:rgba(128,128,128,0.2);}
+25%  {color:rgba(128,128,128,0.4);}
+50%  {color:rgba(128,128,128,0.6);}
+100% {color:rgba(128,128,128,0.8);}
 }
