@@ -1,7 +1,7 @@
 body
 {
 height: 100%;
-background-color: #EED3FC;
+background-color: #909090;
 }
 #input
 {	position: absolute;
@@ -27,15 +27,22 @@ animation:myfirst 1s;
 @keyframes myfirst
 {
 0%   {color:rgba(128,128,128,0.2);}
-25%  {color:rgba(128,128,128,0.4);}
-50%  {color:rgba(128,128,128,0.6);}
-100% {color:rgba(128,128,128,0.8);}
+18%  {color:rgba(128,128,128,0.4);}
+36%  {color:rgba(128,128,128,0.6);}
+54% {color:rgba(128,128,128,0.8);}
+72%   {color:rgba(128,128,128,0.6);}
+90%  {color:rgba(128,128,128,0.4);}
+100%  {color:rgba(128,128,128,0.2);}
 }
 
 @-webkit-keyframes myfirst 
 {
 0%   {color:rgba(128,128,128,0.2);}
-25%  {color:rgba(128,128,128,0.4);}
-50%  {color:rgba(128,128,128,0.6);}
-100% {color:rgba(128,128,128,0.8);}
+18%  {color:rgba(128,128,128,0.4);}
+36%  {color:rgba(128,128,128,0.6);}
+54% {color:rgba(128,128,128,0.8);}
+72%   {color:rgba(128,128,128,0.6);}
+90%  {color:rgba(128,128,128,0.4);}
+100%  {color:rgba(128,128,128,0.2);}
 }
+
