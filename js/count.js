@@ -3,6 +3,7 @@ var innerarr= new Array();
 var temp=0;
 var temp1=0;
 var ignore=["I", "me", "my", "mine", "we", "us", "our", "ours", "you", "your", "yours", "he", "him", "his", "she", "her", "hers", "it", "its", "they", "their", "theirs", "she", "her", "hers", "he", "him", "his", "it", "its", "they", "them", "their", "theirs", "this", "that", "these", "those", "theirselves", "theirself", "hisself", "ourself", "someone", "somebody", "something", "anyone", "anybody", "anything", "no", "one", "nobody", "nothing", "everyone", "everybody", "everything", "both", "few", "several", "some", "any", "none", "all", "most", "who", "whose", "whom", "which", "what", "a", "an", "the", "though", "although", "eventhough", "while", "if", "only", "if", "unless", "until", "provided", "that", "assuming", "that", "even", "if", "in", "case", "test", "than", "rather", "than", "whether", "as", "much", "as", "where", "as", "after", "as", "long", "as", "as", "soon", "as", "before", "by", "the", "time", "now", "that", "once", "since", "till", "until", "when", "whenever", "while", "because", "since", "so", "that", "in", "order", "why", "how", "as", "though", "as", "if", "and","is",".",",","<",">","/","?",";",":","'","[","]","{","}","-", "=","_","+",")","(","*","&","^","%","$","#","@","!"]
+//backspace 8, shift 16.
 $(document).keyup(function(e)
 {
 	if (e.keyCode==32 || e.keyCode==13)
@@ -15,11 +16,15 @@ $(document).keyup(function(e)
 		//temp=temp-2;
 		return false;
 	}
-	if (e.keycode!=32 && e.keycode!=16)
+	if (e.keyCode!=16 && e.keyCode!=8)
 	{
 		temp=temp+1;
 	}
-
+	if (e.keyCode==8)
+	{
+		temp=temp-1;
+	}
+	
 });
 
 function customcount()
