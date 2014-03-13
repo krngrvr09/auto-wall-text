@@ -1,1 +1,1 @@
-The beasic idea behind this project, is to, flash words, as you type them in your backgound. This happens in a vary sen-ish and minimalistic way. Please clone, in order to experience it your self. If you'd like to contribute, please, fork.
+The basic idea behind this project, is to, flash words(they fade-in and fade-out, to be specific), as you type them, in your backgound. This happens in a vary zen-ish and minimalistic way. Please clone, in order to experience it your self. If you'd like to contribute, please, fork.
